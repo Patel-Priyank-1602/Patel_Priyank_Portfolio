@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Verdana', sans-serif;
+    background: linear-gradient(145deg, #ff0000, #d0ff00  , #00ff2a ,#00e5ff , #ff00dd );
+    color: #333;
+    text-align: center;
+    background-image: url('BG5.jpg');
+    background-size: cover; 
+    background-position: center; 
+    background-attachment: fixed; 
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    font-size: 3rem;
+    font-weight: bold;
+    color: #d7d191;
+    margin-top: 40px;
+    letter-spacing: 4px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 40px;
+}
+
+ul li {
+    margin: 20px 0;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #ffffff;
+   
+    padding: 18px 30px;
+    border-radius: 30px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    display: inline-block;
+    width: 550px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+ul li a:hover {
+    background-color: #f6b893;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+ul li a:focus {
+    outline: none;
+    background-color: #f8c7a1;
+}
+
+footer {
+    text-align: center;
+    font-size: 1rem;
+    background-color: rgb(213, 239, 241);
+    padding: 10px;
+}
+
+@media screen and (max-width: 768px) {
+    h1 {
+        font-size: 2.5rem;
+    }
+
+    ul li a {
+        width: 90%;
+        font-size: 1.2rem;
+        padding: 14px 20px;
+    }
+
+    footer {
+        font-size: 0.9rem;
+        padding: 20px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    h1 {
+        font-size: 2rem;
+    }
+
+    ul li a {
+        width: 80%;
+        font-size: 1rem;
+        padding: 12px 18px;
+    }
+
+    footer {
+        font-size: 0.8rem;
+        padding: 15px;
+    }
+}
